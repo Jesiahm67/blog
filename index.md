@@ -8,7 +8,7 @@ Hi my name is Jesiah and this is The blog of tomorrow
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
     <li>
-      <a href="blog3">Blog 1</a>
+      <a href="/blog/_posts/9-17-blog1.md">Blog 1</a>
     </li>
   {% endfor %}
 </ul>
