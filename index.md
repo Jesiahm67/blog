@@ -7,8 +7,5 @@ Hi my name is Jesiah and this is The blog of tomorrow
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
-    <li>
-      <a href="/_posts/9-17-blog1.md">Blog 1</a>
-    </li>
   {% endfor %}
 </ul>
